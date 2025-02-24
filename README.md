@@ -10,7 +10,7 @@ A simple yet effective **stock price prediction model** using **Linear Regressio
 
 ---
 
-## 📊 **Project Overview**
+## **Project Overview**
 - **Goal**: Predict the next day's **closing stock price** using historical data.
 - **Dataset**: Pulled from **Yahoo Finance** (`yfinance`).
 - **Model**: **Linear Regression** (Baseline).
@@ -43,19 +43,13 @@ pip install -r requirements.txt
 ---
 
 ## 🚀 **Usage**
-### 🏗️ Run in Jupyter Notebook
+###  Run in Jupyter Notebook
 1. Open Jupyter Notebook
 ```bash
 jupyter notebook
 ```
 2. Navigate to `notebooks/stock_price_prediction.ipynb` and run all cells.
 
-### 🏗️ Run as a Python Script
-```bash
-python src/train_model.py
-```
-
----
 
 ## 📈 **Results & Insights**
 - The model predicts **stock price trends accurately** using historical data.
@@ -64,14 +58,7 @@ python src/train_model.py
   - Doesn't capture **market events/news impacts**.  
   - Works well for **trend following**, but less for **sharp price swings**.  
 
-📜 **For a detailed performance review, check [`reports/key_insights.pdf`](reports/key_insights.pdf).**
-
----
-
-## 🔥 **Future Enhancements**
-✅ Add **technical indicators** (RSI, MACD, Bollinger Bands)  
-✅ Improve accuracy using **Random Forest, XGBoost, or LSTMs**  
-✅ Use **real-time stock data streaming** for live predictions  
+ **For a detailed performance review, check [`reports/key_insights.pdf`](reports/key_insights.pdf).**
 
 ---
 
