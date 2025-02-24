@@ -2,7 +2,7 @@
 
 A simple yet effective **stock price prediction model** using **Linear Regression**. This project leverages **Yahoo Finance (`yfinance`) data**, applies **feature engineering**, and trains a **machine learning model** to predict **next-day stock prices**.
 
-🚀 **Why this is unique?**
+ **Why this is unique?**
 - **Feature Engineering**: Uses **moving averages (MA_5, MA_10, MA_20)** alongside price & volume.
 - **High Accuracy**: Achieves **R² score of 0.9591** with **low error (MAE = 1.61)**.
 - **Easy to Run**: Works with minimal dependencies and clear structure.
@@ -15,9 +15,9 @@ A simple yet effective **stock price prediction model** using **Linear Regressio
 - **Dataset**: Pulled from **Yahoo Finance** (`yfinance`).
 - **Model**: **Linear Regression** (Baseline).
 - **Performance**:
-  - 📉 **R² Score**: **0.9591** (95.91% variance explained)
-  - 📊 **MAE**: **1.61**
-  - 🏆 **MSE**: **4.53**
+  -  **R² Score**: **0.9591** (95.91% variance explained)
+  -  **MAE**: **1.61**
+  -  **MSE**: **4.53**
 
 ---
 
@@ -38,22 +38,6 @@ venv\Scripts\activate     # Windows
 ### 3️⃣ Install Dependencies
 ```bash
 pip install -r requirements.txt
-```
-
----
-
-## 📂 **Project Structure**
-```
-📂 stock-price-prediction-ML
-│── 📄 README.md            # Project documentation
-│── 📄 requirements.txt     # Dependencies
-│── 📄 .gitignore           # Ignore unnecessary files
-│── 📂 notebooks
-│   │── 📄 stock_price_prediction.ipynb  # Full Jupyter Notebook
-│── 📂 src
-│   │── 📄 train_model.py   # Standalone Python script
-│── 📂 reports
-│   │── 📄 key_insights.pdf # Professional summary of results
 ```
 
 ---
@@ -93,9 +77,6 @@ python src/train_model.py
 
 ## 👨‍💻 **Contributions & Contact**
 💡 Found an issue? Want to contribute? Fork this repo and submit a pull request!  
-📧 Contact: **your.email@example.com**  
-🐦 Twitter: [@yourhandle](https://twitter.com/yourhandle)  
-
 ---
 
 ## 🛠️ **License**
