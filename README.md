@@ -61,8 +61,6 @@ jupyter notebook
  **For a detailed performance review, check [`reports/key_insights.pdf`](reports/key_insights.pdf).**
 
 ---
-
-## 👨‍💻 **Contributions & Contact**
 💡 Found an issue? Want to contribute? Fork this repo and submit a pull request!  
 ---
 
